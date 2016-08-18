@@ -41,6 +41,5 @@ C:\Users\036.036-ПК\Desktop\2\Domain\bin\Debug\System.Web.Razor.xml
 C:\Users\036.036-ПК\Desktop\2\Domain\bin\Debug\System.Web.WebPages.xml
 C:\Users\036.036-ПК\Desktop\2\Domain\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\036.036-ПК\Desktop\2\Domain\bin\Debug\System.Web.WebPages.Razor.xml
-C:\Users\036.036-ПК\Desktop\2\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
 C:\Users\036.036-ПК\Desktop\2\Domain\obj\Debug\Domain.dll
 C:\Users\036.036-ПК\Desktop\2\Domain\obj\Debug\Domain.pdb

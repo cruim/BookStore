@@ -4,9 +4,7 @@
     ViewBag.Title = "BookStore: Your cart";
 }
 
-<style>
-    #cartTable td{vertical-align: middle;}
-</style>
+
 <h2>Index</h2>
 
 <table id ="cartTable" class="table">
@@ -49,5 +47,6 @@
 
 <div>
     <a class="btn btn-primary" href="@Model.ReturnUrl">Continue Shopping</a>
+    @Html.ActionLink("Checkout", "Checkout", null, new {@class = "btn btn-primary"})
 </div>
 
