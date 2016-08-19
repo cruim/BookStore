@@ -1,5 +1,7 @@
-﻿using System.Web.Mvc;
+﻿using System.Linq;
+using System.Web.Mvc;
 using Domain.Abstract;
+using Domain.Entities;
 
 namespace WebUI.Controllers
 {
@@ -14,6 +16,13 @@ namespace WebUI.Controllers
         public ViewResult Index()
         {
             return View(repository.Books);
+        }
+
+        public ViewResult Edit(int bookId)
+        {
+            Book book = repository.Books.FirstOrDefault(b => b.BookId == bookId);
+
+            return View(book);
         }
     }
 }
